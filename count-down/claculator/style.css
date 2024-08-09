@@ -1,0 +1,26 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.btn{
+  /* padding: auto;  */
+  margin: 0 2px; 
+  width: 66px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.row{
+    margin: 5px 0px;
+}
+.row input{
+    font-size: 23px;
+    font-weight: bold;
+    margin: 0; 
+    padding: 10px 0px
+    border: 2px solid black;
+    border-radius: 5px;
+}

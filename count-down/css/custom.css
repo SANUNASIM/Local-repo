@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url("../image/children-1822704_1920.jpg") center center ;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 1, 0.311);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.title{
+    color: rgb(43, 226, 141);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 10px;
+}
+.col{
+    margin-top: 20px;
+    width: 1000px;
+    /* height: 100px; */
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    
+}
+
+.col div{
+    width: 250px;
+    text-align: center;
+}
+input{
+    height: 50px;
+    width: 60%;
+    background-color: rgba(220, 220, 214, 0.879);
+    border-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+    /* display: block; */
+}

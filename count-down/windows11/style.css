@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('windows11.jpg');
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+.taskbar{
+    background-color: #dadfef;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 110;
+    display: flex;
+    justify-content: center;
+}
+
+.startmenu{
+    position: absolute;
+    /* bottom: 52px; */
+    bottom: -434px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+}
+
+.startmenu img{
+    width: 385px;
+    border-radius: 8px;
+}

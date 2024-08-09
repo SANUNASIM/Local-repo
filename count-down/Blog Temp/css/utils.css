@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display:wght@600&family=Roboto:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&family=Playfair+Display:wght@600&family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+:root {
+    --main-bg-color: purple;
+    --font1: 'Baloo Bhaina 2', cursive;
+    --font2: 'Roboto', sans-serif;
+}
+
+.font1 {
+    font-family: var(--font1);
+    padding: 0 21px;
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.my-1{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.btn {
+    padding: 5px 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-family: var(--font1);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: var(--main-bg-color);
+    color: white;
+}
+
+.form-input {
+    padding: 3px 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 13px;
+    font-family: var(--font1);
+}
+
+.form-box input, textarea{
+    width: 52vw;
+    padding: 10px 6px;
+    margin: 7px 0;
+}

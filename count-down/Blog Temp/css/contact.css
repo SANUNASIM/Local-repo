@@ -1,0 +1,28 @@
+
+  .contact-content {
+    margin-bottom: 10px;
+    height: 80vh;
+        height: 80vh;
+        margin-top: 32px;
+        padding: 9px;
+        position: relative;
+        overflow: hidden;
+        /* background-color: aqua; */
+    }
+    
+    .contact-content::after{
+        content: "";
+        background-image: url("../img/gym.jpg");
+        background-size: cover;
+        
+        position: absolute;
+        width: 100%;
+        height: inherit;
+        opacity: 0.35;
+        border-radius: 8px;
+        z-index: -1;
+    }
+
+    .contact-form{
+      
+    }

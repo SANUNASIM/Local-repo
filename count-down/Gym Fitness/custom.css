@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+    
+}
+
+.navbar{
+    display: flex;
+    height: 65px;
+    
+}
+.navbar li{
+    font-family:'Playfair Display', serif;
+    list-style: none;
+    margin: 0 12px;
+}
+.top-left{
+    width: 50%;
+}
+.top-right{
+    width: 50%;
+}
+.section1{
+max-height: 100vh;
+
+}
+.section1 h1{
+font-size: 2rem;
+}
+.logo{
+    font-size: 1.5rem;
+}
+
+.top-right .gymimg{
+    width: 466px;
+    padding: 10px;
+    overflow: hidden;
+    }
+
+
+.dumbelling{
+   width: 90px;
+   height: 65px;
+}
+.section2{
+    padding-left: 63px;
+    padding-right: 63px;
+}
+
+.section2 h1{
+    font-size: 3rem;
+}
+.section2 p{
+    padding: 7px 5vw;
+    text-align: center;
+}
+.box{
+    padding: 8px 0;
+  margin: 12px 22px;    
+  min-width: 20vw;
+  border: 2px solid rgb(182, 52, 19);
+  text-align: center;
+  border-radius: 8px;
+  font-size: .8rem;
+}
+.box h2{
+    font-size: 1.5rem;
+    padding: 12px 0;
+}
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style-type: none;
+}
+.box ul li{
+   margin: 4px 2px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center ;
+}
